@@ -29,6 +29,7 @@ p {
 }
 img {
   max-width: 100%;
+  height: 100%;
 }
 .navigation {
   display: flex;
@@ -60,6 +61,10 @@ img {
 .navigation ul ul {
   display: none;
   position: absolute;
+  top: 3rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.15);
+  width: 13rem;
+  border-radius: 1rem;
 }
 .navigation ul li:hover ul {
   display: list-item;
@@ -114,6 +119,11 @@ img {
   margin: 4rem 2rem;
   font-weight: 700;
   cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  color: var(--gray);
+  border: 2px solid var(--gray);
 }
 .logos {
   display: flex;
