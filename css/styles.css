@@ -82,6 +82,21 @@ img {
   padding: 0.5rem;
   border-radius: 1rem;
 }
+.uarr,
+.darr {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 0.5rem;
+}
+.uarr {
+  display: none;
+}
+.ul-left li:hover .uarr {
+  display: inline;
+}
+.ul-left li:hover .darr {
+  display: none;
+}
 .hambuger {
   display: none;
 }
